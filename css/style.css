@@ -1,0 +1,323 @@
+/*cssリセット*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*スライドショーする画像の幅を100%に設定*/
+.slick-slider {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.mainVisual {
+    position: relative;
+    margin-top: 65px;
+}
+
+.catchcopy {
+    font-size: 56px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}*/
+
+/* スライダーのスタイル */
+.slick-slider {
+    width: 80%;
+    /* 画像が親要素の幅にフィットするように調整 */
+    margin: auto;
+    z-index: -1;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .1);
+    z-index: 100;
+    justify-content: space-between;
+  }
+
+
+header ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+header li {
+    list-style: none;
+    margin-right: 45px;
+}
+.header-logo {
+    font-size: 30px;
+    padding-left: 160px;
+}
+
+.header-header {
+    font-size: 16px;
+    display: flex;
+    margin-left: auto;
+    width: 40%;
+    margin-top: -45px;
+}
+
+.header-header-under {
+    font-size: 10px;
+    display: flex;
+    margin-left: auto;
+    width: 580px;
+    color: gray;
+}
+.header-header-under li:nth-child(1) {
+    margin-right: 50px; 
+  }
+  .header-header-under li:nth-child(2) {
+    margin-right: 65px;
+  }
+  
+  .header-header-under li:nth-child(3) {
+    margin-right: 50px; 
+  }
+  
+  .header-header-under li:nth-child(4) {
+    margin-right: 50px; 
+  }
+  .header-header-under li:last-child {
+    margin-right: 0; /* 最後の要素の後ろには間隔を設定しない */
+  }
+  
+.catchcopy-subtitle {
+    position: relative;
+    /* 要素を相対位置に設定 */
+    top: -200px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+/*ここからinformation*/
+.information {
+    margin-top: 128px;
+}
+
+.information-subtitle {
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+.box {
+    display: flex;
+
+}
+
+.box_pic1 {
+    margin-left: 160px;
+    margin-right: 40px;
+}
+
+.box_pic2 {
+    margin-right: 40px;
+}
+
+.box_pic3 {
+    margin-right: 40px;
+}
+
+.box_pic4 {
+    margin-right: 160px;
+}
+
+.new-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 80px;
+    height: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*ここからgreeting*/
+.greeting-background img{
+    width: 100%;
+    height: 900px;
+    margin-top: 128px;
+}
+.greeting-1{
+    margin-top: -600px;
+}
+.greeting-subtitle {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.explanatory-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name{
+    margin-left: 350px;
+}
+.img-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -600px;
+}
+
+
+
+
+
+
+
+
+/*ここからphotograph*/
+.photograph {
+   margin-top: 798px;
+}
+
+.photograph-subtitle {
+    padding-top: 16px;
+    padding-bottom: 64px;
+}
+
+.slick-slider5 {
+    width: 80%;
+    /* 画像が親要素の幅にフィットするように調整 */
+    margin: auto;
+}
+
+.slick-slide5 img {
+    width: 100%;
+    height: 100%;
+    /* 画像が親要素の高さにフィットするように調整 */
+    object-fit: cover;
+    /* アスペクト比を保ちつつ親要素にフィット */
+}
+
+
+.slick-slider10 {
+    width: 80%;
+    /* 画像が親要素の幅にフィットするように調整 */
+    margin: auto;
+}
+
+.slick-slide10 img {
+    width: 100%;
+    height: 100%;
+    /* 画像が親要素の高さにフィットするように調整 */
+    object-fit: cover;
+    /* アスペクト比を保ちつつ親要素にフィット */
+}
+
+.slick-slider5 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slick-slider10 {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    /* 要素を相対位置に設定 */
+    top: -250px;
+}
+
+/*contact*/
+.contact-background {
+    width: 100%;
+   background-image: url(img/5-1.jpg);
+   background-size: cover;
+}
+.contact-background img {
+  width: 100%;
+    height: 830px;
+   background-image: url(img/5-1.jpg);
+   background-size: cover;
+   margin-top: -450px;
+}
+.contact-all{
+    margin-top: -712px;
+}
+.contact-subtitle {
+   margin-top: 16px;
+   margin-bottom: 64px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    /* ラベルの幅を調整 */
+    margin-bottom: 64px;
+}
+
+input {
+    display: inline-block;
+    width: calc(50% - 110px);
+    /* ボックスの幅をラベルの幅を引いたものに設定 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    /* 背景色を白に設定 */
+    box-sizing: border-box;
+}
+
+.input-container {
+    text-align: center;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px; /* 丸みを持った角 */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 640px;
+    letter-spacing: 10px;
+    width: 250px; /* ボタンの幅を設定 */
+}
+footer {
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 128px;
+
+}
+
+
